@@ -22,6 +22,9 @@ const albumSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
+  },
+  {
+    collection: "albums",
   }
 )
 
